@@ -1,0 +1,92 @@
+[index1.html](https://github.com/user-attachments/files/24198229/index1.html)
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emili Angora — Travel</title>
+<style>
+:root{
+  --orange:#ff7a00;
+  --orange-dark:#ff5e00;
+  --turq:#25e2d7;
+  --text:#fff;
+  font-family: Arial, sans-serif;
+}
+body{
+  margin:0;
+  min-height:100vh;
+  background:linear-gradient(180deg,var(--orange),var(--orange-dark));
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:24px;
+  color:var(--text);
+}
+.card{
+  background:transparent;
+  color:#333;
+  max-width:420px;
+  width:100%;
+  border-radius:24px;
+  padding:28px 22px 32px;
+  text-align:center;
+}
+.avatar{
+  margin-top:-90px;
+}
+.avatar img{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  object-fit:cover;
+  border:6px solid var(--turq);
+}
+h2{
+  margin:14px 0 6px;
+}
+p{
+  font-size:15px;
+  line-height:1.45;
+}
+.links a{
+  display:block;
+  margin-top:12px;
+  padding:14px;
+  background:var(--turq);
+  color:#003c39;
+  text-decoration:none;
+  border-radius:14px;
+  font-weight:600;
+  transition:.2s;
+}
+.links a:hover{
+  background:#32fff0;
+  transform:translateY(-2px);
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="avatar">
+    <img src="avatar.png" alt="Emili Angora">
+  </div>
+
+  <h2>Emili Angora</h2>
+  <p>
+    Ваш travel-шорткат у світ крутих відпочинків!<br>
+    Створюю тури, які закохують у подорожі 😍
+  </p>
+
+  <div class="links">
+    <a href="https://www.instagram.com/emili_angora/" target="_blank">📸 Instagram</a>
+    <a href="https://tiktok.com/@emili_travel" target="_blank">🎵 TikTok</a>
+    <a href="https://t.me/emili_angora" target="_blank">💬 Telegram канал</a>
+    <a href="https://angora.xotravel.pro/uk/" target="_blank">🌍 Angora Travel</a>
+    <a href="https://angora.unit.travel/" target="_blank">🖥 Online бронювання</a>
+  </div>
+</div>
+
+</body>
+</html>
